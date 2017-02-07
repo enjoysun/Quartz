@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartzdemo", "Quartzdemo\Quartzdemo.csproj", "{4C01A27D-C74B-41C4-AC8B-27BE459D1F9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quarzconsole", "Quarzconsole\Quarzconsole.csproj", "{CC0C5CCF-5380-415B-998B-894D51C62FDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C01A27D-C74B-41C4-AC8B-27BE459D1F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C01A27D-C74B-41C4-AC8B-27BE459D1F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C01A27D-C74B-41C4-AC8B-27BE459D1F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0C5CCF-5380-415B-998B-894D51C62FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0C5CCF-5380-415B-998B-894D51C62FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0C5CCF-5380-415B-998B-894D51C62FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0C5CCF-5380-415B-998B-894D51C62FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
