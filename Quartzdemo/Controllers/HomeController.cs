@@ -8,22 +8,11 @@ namespace Quartzdemo.Controllers
 {
     public class HomeController : Controller
     {
+        //[OutputCache(Duration = 5)]//control缓存，粒度较大
+        [OutputCache(CacheProfile = "Testconfigcache")]//采用配置文件批量缓存设置方法
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Currentime = DateTime.Now;
             return View();
         }
     }
