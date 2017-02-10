@@ -2,6 +2,12 @@
     ViewBag.Title = "Home Page";
 }
 
-<div>
+<div class="demo" style="height:100px;width:100px;">
     @ViewBag.Currentime
 </div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/LearnJqueryApi/colorset.js"></script>
+<script type="text/javascript">
+    var option = { color: "white", fontsize: 12 };
+    $(".demo").colorful(option);
+</script>
