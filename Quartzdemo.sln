@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegatedemo", "Delegatedemo\Delegatedemo.csproj", "{0AA80CB4-371C-4491-B638-A56748C42965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\EventDemo.csproj", "{92E6C018-1DAC-4598-BFB6-7DCDC75B7F3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0AA80CB4-371C-4491-B638-A56748C42965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA80CB4-371C-4491-B638-A56748C42965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA80CB4-371C-4491-B638-A56748C42965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E6C018-1DAC-4598-BFB6-7DCDC75B7F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E6C018-1DAC-4598-BFB6-7DCDC75B7F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E6C018-1DAC-4598-BFB6-7DCDC75B7F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E6C018-1DAC-4598-BFB6-7DCDC75B7F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
