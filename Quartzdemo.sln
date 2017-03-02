@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartzdemo", "Quartzdemo\Quartzdemo.csproj", "{4C01A27D-C74B-41C4-AC8B-27BE459D1F9A}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventdeppen", "Eventdeppen\Eventdeppen.csproj", "{7227A660-FDD7-4983-8921-F4B33AD56FF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seriersfun", "Seriersfun\Seriersfun.csproj", "{F4EAACA0-5A24-4DD3-BBE2-4FACB7BA293F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcbroswervalidate", "mvcbroswervalidate\mvcbroswervalidate.csproj", "{ACC7A4F3-C190-4BEA-9DA1-46F25F197B9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{F4EAACA0-5A24-4DD3-BBE2-4FACB7BA293F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4EAACA0-5A24-4DD3-BBE2-4FACB7BA293F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4EAACA0-5A24-4DD3-BBE2-4FACB7BA293F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC7A4F3-C190-4BEA-9DA1-46F25F197B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC7A4F3-C190-4BEA-9DA1-46F25F197B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC7A4F3-C190-4BEA-9DA1-46F25F197B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC7A4F3-C190-4BEA-9DA1-46F25F197B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

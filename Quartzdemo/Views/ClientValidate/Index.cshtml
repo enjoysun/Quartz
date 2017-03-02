@@ -21,19 +21,19 @@
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail">Email address</label>
-                <input class="required email" id="exampleInputEmail">
+                <input class="required email" id="exampleInputEmail" name="exampleInputEmail">
             </div>
             <div class="form-group">
                 <label for="exampleInputname">name</label>
-                <input class="required" id="exampleInputname">
+                <input class="required" id="exampleInputname" name="exampleInputname">
             </div>
             <div class="form-group">
                 <label for="exampleInputdate">date</label>
-                <input class="required date" id="exampleInputdate">
+                <input class="required date" id="exampleInputdate" name="exampleInputdate">
             </div>
             <div class="form-group">
                 <label for="exampleInputblogs">blogs</label>
-                <input class="required url" id="exampleInputblogs">
+                <input class="required url" id="exampleInputblogs" name="exampleInputblogs">
             </div>
         </form>
     </div>
@@ -41,6 +41,8 @@
     <script src="~/Scripts/jquery.validate.js"></script>
     <script type="text/javascript">
         $("form").validate({
+            //rules自定义验证规则  需name值
+            //messages自定义错误消息提示 需name值
             rules: {
                 exampleInputEmail: { required: true, email: true },
                 exampleInputname: { required: true },

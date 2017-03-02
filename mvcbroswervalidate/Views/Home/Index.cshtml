@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Clientvalidate</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control required email" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputname">name</label>
+                <input type="password" class="form-control required" id="exampleInputname" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputdate">date</label>
+                <input type="password" class="form-control required date" id="exampleInputdate" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputblogs">blogs</label>
+                <input type="password" class="form-control required url" id="exampleInputblogs" placeholder="">
+            </div>
+        </form>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("form").validate();
+        })
+    </script>
+</body>
+</html>
