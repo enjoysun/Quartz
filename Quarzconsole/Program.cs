@@ -78,17 +78,21 @@ namespace Quarzconsole
             //    return 1;
             //});
             //Console.WriteLine(t.Result);
-            
+            //对字符串进行随机排列
+            string s = "asdfgh";
+            char[] a= s.OrderBy(c => Guid.NewGuid()).ToArray();
+            Console.WriteLine(a);
+            Console.ReadLine();
 
             //反射
-            Assembly ass=Assembly.Load("ClassLibrary1");//动态加载dll
-            Type t=ass.GetType("ClassLibrary1.Class1");//获取类
-            PropertyInfo pro= t.GetProperty("name");//获取属性
-            object obj=Activator.CreateInstance(t);//创建类的实例
-            pro.SetValue(obj, "GG", null);
-            object mess=t.GetMethod("sayhello").Invoke(obj, null);
-            Console.WriteLine(mess);
-            Console.ReadLine();
+            //Assembly ass=Assembly.Load("ClassLibrary1");//动态加载dll
+            //Type t=ass.GetType("ClassLibrary1.Class1");//获取类
+            //PropertyInfo pro= t.GetProperty("name");//获取属性
+            //object obj=Activator.CreateInstance(t);//创建类的实例
+            //pro.SetValue(obj, "GG", null);
+            //object mess=t.GetMethod("sayhello").Invoke(obj, null);
+            //Console.WriteLine(mess);
+            //Console.ReadLine();
         }
         public static async Task<int> Getwithasync()
         {
