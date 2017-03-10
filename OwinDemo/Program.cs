@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Owin.Hosting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,10 @@ namespace OwinDemo
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            using (WebApp.Start<Startup1>("http://localhost:12345"))//执行地址
+            {
+                Console.ReadLine();
+            }
         }
     }
 }
