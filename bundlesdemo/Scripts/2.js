@@ -1,0 +1,3 @@
+﻿; (function sayhellotochinese() {
+    alert("xiongqi");
+})();

@@ -1,0 +1,3 @@
+﻿; (function sayhellotoenglish() {
+    alert("word");
+})();
