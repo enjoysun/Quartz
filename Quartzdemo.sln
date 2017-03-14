@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinDemo", "OwinDemo\OwinDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bundlesdemo", "bundlesdemo\bundlesdemo.csproj", "{3C166804-E84A-434C-88EA-BB3659D51DD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasksdemo", "Tasksdemo\Tasksdemo.csproj", "{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3C166804-E84A-434C-88EA-BB3659D51DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C166804-E84A-434C-88EA-BB3659D51DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C166804-E84A-434C-88EA-BB3659D51DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
