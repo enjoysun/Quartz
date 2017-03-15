@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bundlesdemo", "bundlesdemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasksdemo", "Tasksdemo\Tasksdemo.csproj", "{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{6ABC4DF4-ABD7-404D-BAA6-36E6AFECCCF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC571298-A9FD-49EB-82C5-5027E0E8DBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABC4DF4-ABD7-404D-BAA6-36E6AFECCCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABC4DF4-ABD7-404D-BAA6-36E6AFECCCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABC4DF4-ABD7-404D-BAA6-36E6AFECCCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABC4DF4-ABD7-404D-BAA6-36E6AFECCCF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
