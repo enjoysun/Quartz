@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,7 +54,6 @@ namespace AutoMapperDemo
             });
             Console.WriteLine("姓名{0}性别{1}账号{2}密码{3}头像{4}", user2.Usernamedto, user2.Usersexdto == true ? "男" : "女", user2.Useraccountdto, user2.Userpassworddto, user2.Userimgdto);
             Console.ReadKey();
-
         }
     }
     public class User
